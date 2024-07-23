@@ -1,10 +1,11 @@
+"""
+Code written by Khushwant Sanwalot, 23-07-2027
+"""
 
 import pandas as pd
 import os
 import requests
 import torch
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForCausalLM 
 
