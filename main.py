@@ -77,7 +77,7 @@ def get_boxes(images):
 
 if __name__ == "__main__":
     try:
-        images = os.listdir("dataset/subset")
+        images = os.listdir("dataset/valid")
         images = images[:20]  # For testing, limit to first 20 images
         get_boxes(images)
     except Exception as e:
